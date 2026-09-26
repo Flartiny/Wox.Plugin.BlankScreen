@@ -34,12 +34,20 @@ MultiscreenBlank2.exe /toggle name "Side Screen"
 
 ## 安装
 
+### 直接安装
+
 将脚本复制到 Wox 的用户脚本目录，然后重启 Wox：
 
 ```text
 C:\Users\<用户名>\.wox\wox-user\plugins\scripts\Wox.Plugin.Script.MultiscreenBlank.py
 ```
 
+
+### Wox Store 发布
+
+这是脚本插件，Store 的 `DownloadUrl` 应直接指向默认分支中的 [`Wox.Plugin.Script.MultiscreenBlank.py`](https://raw.githubusercontent.com/Flartiny/Wox.Plugin.BlankScreen/master/Wox.Plugin.Script.MultiscreenBlank.py)，而不是 `.wox` 压缩包。Store 条目使用 `Runtime: "script"` 和 `IconEmoji: "⬛"`。
+
+### 可执行文件位置
 
 默认自动识别：
 
@@ -63,3 +71,7 @@ Wox.Plugin.Script.MultiscreenBlank.log
 
 - [Multiscreen Blank 命令行参数](https://multiscreenblank.nookkin.com/advanced.ndoc)
 - [Wox Script Plugin 开发指南](https://github.com/Wox-launcher/Wox/blob/master/www/docs/zh/development/plugins/script-plugin.md)
+
+## 许可证
+
+[MIT License](LICENSE)

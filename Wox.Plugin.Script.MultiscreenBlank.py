@@ -6,6 +6,7 @@
 #   "Version": "1.0.0",
 #   "MinWoxVersion": "2.0.0",
 #   "Description": "通过命令行控制 Multiscreen Blank 显示器遮罩",
+#   "Website": "https://github.com/Flartiny/Wox.Plugin.BlankScreen",
 #   "Icon": "emoji:⬛",
 #   "TriggerKeywords": ["msb"],
 #   "SupportedOS": ["Windows"],
